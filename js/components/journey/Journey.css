@@ -1,0 +1,14 @@
+/* appear */
+.journey {
+    height: calc(100% - 72px);
+    background: orange;
+}
+
+.scrollheader-appear {
+    height: 0;
+}
+
+.scrollheader-appear.scroll-appear-active {
+    height: 400px;
+}
+

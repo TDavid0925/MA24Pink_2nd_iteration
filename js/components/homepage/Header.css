@@ -1,0 +1,63 @@
+.masthead h1 {
+    font-size: 2.25rem;
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 72px;
+      padding-bottom: 0;
+    }
+    .masthead p {
+      font-size: 1.15rem;
+    }
+    .masthead h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .masthead h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #f4623a;
+    border-color: #f4623a;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #f24516;
+    border-color: #ee3e0d;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  }
+  
+  .btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+  }
+
+  .text-white-75 {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .font-weight-light {
+    font-weight: 300 !important;
+  }
+
+  .masthead p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
